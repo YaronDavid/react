@@ -1,17 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
-import first from './components/first';
+import React from 'react';
+import First from './components/first';
+import Second from './components/second';
 
 function App() {
   return (
-    <div>
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to.
         </p>
-        <first msg="hola"/>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -20,8 +20,9 @@ function App() {
         >
           Aprende
         </a>
+        <First/>
+        <Second />
       </header>
-    </div>
     </div>
   );
 }
