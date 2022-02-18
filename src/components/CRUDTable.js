@@ -1,5 +1,5 @@
 import react from "react";
-import CRUDTableRow from "../CRUDTableRow";
+import CRUDTableRow from "./CRUDTableRow";
 
 const CRUDTable = ({ data }) => {
     return (
