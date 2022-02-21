@@ -6,8 +6,8 @@ const CRUDTableRow = ({el}) =>{
             <td>{el.Name}</td>
             <td>{el.Type}</td>
             <td>{el.Attack}</td>
-            <button>Actualizar</button>
-            <button>Eliminar</button>
+            <td><button>Actualizar</button></td>
+            <td><button>Eliminar</button></td>
         </tr> 
     );
 };
